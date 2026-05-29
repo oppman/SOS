@@ -5,7 +5,7 @@
      <!-- Hero Section -->
      <section              
        class="relative h-[90vh] bg-cover bg-center"
-       style="background-image: url('/src/assets/images/image4.png');"
+       :style="{ backgroundImage: `url(${bgImageHome})` }"
      >
        <div class="absolute inset-0 bg-black/50"></div>
  
@@ -40,7 +40,7 @@
          <!-- Card 1 -->
          <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
            <img
-             src="/src/assets/images/image9.png"
+             src="../assets/images/image9.png"
              alt="Volcanoes National Park"
              class="h-64 w-full object-cover"
            />
@@ -59,7 +59,7 @@
          <!-- Card 2 -->
          <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
            <img
-             src="/src/assets/images/image.png"
+             src="../assets/images/image.png"
              alt="Lake Kivu"
              class="h-64 w-full object-cover"
            />
@@ -78,7 +78,7 @@
          <!-- Card 3 -->
          <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
            <img
-             src="/src/assets/images/logo.png"
+             src="../assets/images/logo.png"
              alt="Kigali City"
              class="h-64 w-full object-cover"
            />
@@ -103,5 +103,5 @@
  </template>
  
  <script setup>
- // No script needed for now
+ import bgImageHome from '../assets/images/image4.png';
  </script>

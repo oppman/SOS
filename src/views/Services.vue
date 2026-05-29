@@ -51,7 +51,7 @@
             <div class="h-full">
   
               <img
-                src="/src/assets/images/image4.png"
+                src="../assets/images/image4.png"
                 class="w-full h-full object-cover"
               />
   
@@ -281,7 +281,7 @@
           <div>
   
             <img
-              src="/src/assets/images/image4.png"
+              src="../assets/images/image4.png"
               class="rounded-[40px] shadow-2xl"
             />
   

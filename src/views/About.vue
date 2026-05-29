@@ -4,7 +4,7 @@
     <!-- Hero Section -->
     <section
       class="relative h-[70vh] bg-cover bg-center flex items-end"
-      style="background-image: url('/src/assets/images/image6.png');"
+      :style="{ backgroundImage: `url(${bgImageAbout})` }"
     >
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
       <div class="relative z-10 px-8 md:px-20 pb-16 max-w-5xl">
@@ -34,7 +34,7 @@
       </div>
       <div class="relative">
         <img
-          src="/src/assets/images/image4.png"
+          src="../assets/images/image4.png"
           alt="Rwanda landscape"
           class="rounded-2xl w-full h-80 object-cover shadow-2xl"
         />
@@ -122,6 +122,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import bgImageAbout from '../assets/images/image6.png';
 
 const values = [
   {
