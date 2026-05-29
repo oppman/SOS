@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-stone-50 font-body">
+  <div class="bg-black font-body">
 
     <!-- Hero Section -->
     <section
@@ -68,7 +68,7 @@
     </section>
 
     <!-- Mission & Vision -->
-    <section class="max-w-6xl mx-auto px-6 md:px-16 py-24 grid md:grid-cols-2 gap-10">
+    <section class="max-w-6xl mx-auto px-6 md:px-16 py-24 grid md:grid-cols-2 gap-10 bg-black">
       <!-- Mission -->
       <div class="bg-white border border-gray-100 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-shadow duration-300">
         <div class="w-14 h-14 bg-yellow-100 rounded-2xl flex items-center justify-center mb-6">
@@ -97,7 +97,7 @@
     </section>
 
     <!-- Core Values -->
-    <section class="bg-stone-100 py-24 px-6">
+    <section class="bg-black py-24 px-6">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16">
           <span class="text-yellow-500 font-semibold tracking-widest uppercase text-xs">What Drives Us</span>
