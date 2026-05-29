@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-green-800 text-white px-8 py-10 mt-87 flex justify-between ">
+    <footer class="bg-green-800 text-white px-8 py-10  flex justify-between ">
         <div class="flex flex-wrap justify-between gap-8">
             <!--this is about of footer-->
             <div>
@@ -42,7 +42,7 @@
         </div>
         <div>
                 <!--Place for copy right-->
-        <div class="border-t border-white mt-8 pt-1 text-sm md:text-base fixed bottom-0 left-0 w-full  text-white py-1 background-green-200">
+        <div class="border-t border-white mt-8 pt-1 text-sm md:text-base fixed bottom-0 left-0 w-full  text-white py-1 background-green-200 ">
             <p class="text-center ">@2026 Visit Rwanda. All rights reserved. </p>  
         
         </div>
