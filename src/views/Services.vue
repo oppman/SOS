@@ -51,7 +51,7 @@
             <div class="h-full">
   
               <img
-                src="/src/assets/images/image4g.png"
+                src="/src/assets/images/image4.png"
                 class="w-full h-full object-cover"
               />
   
