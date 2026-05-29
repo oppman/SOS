@@ -15,23 +15,23 @@
         </div>
   
         <ul class="flex gap-9 text-lg text-green-500 font-medium">
-          <li><a href="/" class="hover:text-yellow-400 transition">Home</a> </li>
-          <li><a href="/About" class="hover:text-yellow-400 transition">About </a></li>
-          <li><a href="/Services" class="hover:text-yellow-400 transition"> Services</a></li>
+          <li><RouterLink to="/" class="hover:text-yellow-400 transition">Home</RouterLink> </li>
+          <li><RouterLink to="/About" class="hover:text-yellow-400 transition">About </RouterLink></li>
+          <li><RouterLink to="/Services" class="hover:text-yellow-400 transition"> Services</RouterLink></li>
           <li class="relative group"><a href="#" class="hover:text-yellow-400 transition">Gallery <span >▼</span> </a>
           <ul class="invisible-group-hover:visible-opacity-0 group-hover-opacity-100 hidden group-hover:block absolute bg-white text-green-400 rounded shadow w-48 top-full left-0 z-50">
-            <li><a href="/Photos" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Photos</a></li>
-            <li><a href="/Videos" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Videos</a></li>
+            <li><RouterLink to="/Photos" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Photos</RouterLink></li>
+            <li><RouterLink to="/Videos" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Videos</RouterLink></li>
           </ul></li>
           <li class="relative group"><a href="#" class="hover:text-yellow-400 transition">Destinations <span>▼</span></a>
             <ul class="invisible-group-hover:visible-opacity-0 group-hover-opacity-100 hidden group-hover:block absolute bg-white text-green-400 rounded shadow w-48 top-full left-0 z-50">
-            <li><a href="/Kigali" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Kigali City</a></li>
-            <li><a href="/Northern" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Northern Province</a></li>
-            <li><a href="/Southern" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Souther Province</a></li>
-            <li><a href="/Eastern" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Eastern Province</a></li>
-            <li><a href="/Western" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Westen Province</a></li>
+            <li><RouterLink to="/Kigali" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Kigali City</RouterLink></li>
+            <li><RouterLink to="/Northern" class="block px-4 py-2 hover:bg-green-400 hover:text-white " >Northern Province</RouterLink></li>
+            <li><RouterLink to="/Southern" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Souther Province</RouterLink></li>
+            <li><RouterLink to="/Eastern" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Eastern Province</RouterLink></li>
+            <li><RouterLink to="/Western" class="block px-4 py-2 hover:bg-green-400 hover:text-white ">Westen Province</RouterLink></li>
           </ul></li> 
-          <li><a href="/Contact" class="hover:text-yellow-400 transition">Contact </a></li>
+          <li><RouterLink to="/Contact" class="hover:text-yellow-400 transition">Contact </RouterLink></li>
         </ul>
   
       </div>
@@ -40,4 +40,5 @@
   </template>
   
   <script setup>
+  import { RouterLink } from 'vue-router';
   </script> l
