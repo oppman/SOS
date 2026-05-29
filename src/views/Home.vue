@@ -1,5 +1,5 @@
 <template>
-   <div class="min-h-screen bg-black">
+   <div class="min-h-screen w-full bg-black">
 
  
      <!-- Hero Section -->
