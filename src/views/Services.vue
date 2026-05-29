@@ -51,7 +51,7 @@
             <div class="h-full">
   
               <img
-                src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1200&auto=format&fit=crop"
+                src="/src/assets/images/image4g.png"
                 class="w-full h-full object-cover"
               />
   
@@ -281,7 +281,7 @@
           <div>
   
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop"
+              src="/src/assets/images/image4.png"
               class="rounded-[40px] shadow-2xl"
             />
   
@@ -362,67 +362,7 @@
   
       </section>
   
-      <!-- FOOTER -->
-      <footer class="bg-[#0f172a] text-white py-14 px-6">
-  
-        <div
-          class="max-w-7xl mx-auto grid md:grid-cols-3 gap-14"
-        >
-  
-          <!-- BRAND -->
-          <div>
-  
-            <h2 class="text-3xl font-black text-green-400 mb-5">
-              TEMBERA U RWANDA
-            </h2>
-  
-            <p class="text-gray-400 leading-8">
-              Experience Rwanda’s wildlife,
-              culture, landscapes, and unforgettable adventures.
-            </p>
-  
-          </div>
-  
-          <!-- LINKS -->
-          <div>
-  
-            <h3 class="text-2xl font-black mb-5">
-              Services
-            </h3>
-  
-            <ul class="space-y-4 text-gray-400">
-              <li><a href="#">Safari Tours</a></li>
-              <li><a href="#">Travel Packages</a></li>
-              <li><a href="#">Hotel Booking</a></li>
-              <li><a href="#">Cultural Tours</a></li>
-            </ul>
-  
-          </div>
-  
-          <!-- CONTACT -->
-          <div>
-  
-            <h3 class="text-2xl font-black mb-5">
-              Contact Info
-            </h3>
-  
-            <p class="text-gray-400 leading-8">
-              Kigali, Rwanda <br />
-              info@temberaurwanda.com <br />
-              +250 700 000 000
-            </p>
-  
-          </div>
-  
-        </div>
-  
-        <div
-          class="border-t border-white/10 mt-14 pt-6 text-center text-gray-500"
-        >
-          © 2026 Tembera U Rwanda. All Rights Reserved.
-        </div>
-  
-      </footer>
+
   
     </div>
   </template>
