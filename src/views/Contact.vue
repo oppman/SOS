@@ -293,26 +293,7 @@
   
       </section>
   
-      <!-- FOOTER -->
-      <footer class="border-t border-white/10 py-8">
-  
-        <div
-          class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-5"
-        >
-  
-          <div>
-            <h2 class="text-2xl font-black text-green-400">
-              TEMBERA U RWANDA
-            </h2>
-          </div>
-  
-          <p class="text-gray-400">
-            © 2026 Tembera U Rwanda. All Rights Reserved.
-          </p>
-  
-        </div>
-  
-      </footer>
+
   
     </div>
   </template>
