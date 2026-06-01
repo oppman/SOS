@@ -5,7 +5,7 @@
 
     <section
       class="relative h-screen bg-cover bg-center"
-      style="background-image: url(/src/assets/images/homebackground.jpg)"
+      style="background-image: url(/src/assets/images/gorilla.jpg)"
     >
       <div class="absolute inset-0 bg-black/60"></div>
 
