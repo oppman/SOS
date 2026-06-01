@@ -178,7 +178,7 @@
       <div
         class="border-t border-gray-800 py-6 text-center text-gray-500"
       >
-        © 2026 Tembera U Rwanda. All Rights Reserved.
+        © Done by TWIZEYIMANA NDEKEZI Opportun
       </div>
   
     </footer>
