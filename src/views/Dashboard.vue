@@ -32,10 +32,10 @@
             <p class="px-4 text-xs font-semibold text-gray-400 uppercase tracking-wider">Quick Links</p>
           </div>
           <router-link to="/" :class="['block px-4 py-2.5 rounded-lg font-medium text-gray-300 hover:bg-gray-800 transition']">
-            🏠 Home
+             Home
           </router-link>
           <router-link to="/contact" :class="['block px-4 py-2.5 rounded-lg font-medium text-gray-300 hover:bg-gray-800 transition']">
-            💬 Support
+             Support
           </router-link>
           <router-link to="/photos" :class="['block px-4 py-2.5 rounded-lg font-medium text-gray-300 hover:bg-gray-800 transition']">
              Gallery

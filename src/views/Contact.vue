@@ -1,303 +1,285 @@
 <template>
-    <div class="min-h-screen bg-[#0f172a] text-white">
+  <div>
 
-  
-      <!-- HERO -->
-      <section class="relative overflow-hidden">
-  
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-green-700/20 via-transparent to-cyan-500/20"
-        ></div>
-  
-        <div
-          class="max-w-7xl mx-auto px-6 py-28 relative z-10"
-        >
-  
-          <div class="max-w-3xl">
-  
-            <span
-              class="bg-green-500/20 text-green-300 px-5 py-2 rounded-full text-sm font-bold border border-green-500/30"
-            >
-              CONTACT TEMBERA U RWANDA
-            </span>
-  
-            <h2
-              class="text-6xl md:text-7xl font-black leading-tight mt-8 mb-8"
-            >
-              Start Your <br />
-              Journey Through <br />
-              Rwanda
-            </h2>
-  
-            <p
-              class="text-xl text-gray-300 leading-9 max-w-2xl"
-            >
-              Our travel team is ready to help you discover
-              Rwanda’s wildlife, culture, luxury experiences,
-              and breathtaking destinations.
-            </p>
-  
-          </div>
-  
+    <!-- Hero -->
+
+    <section class="relative h-[70vh]">
+
+      <img
+        src="/src/assets/images/servicebg.jpg"
+        class="w-full h-full object-cover"
+        alt="Contact Us"
+      />
+
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div
+        class="absolute inset-0 flex items-center justify-center text-center px-6"
+      >
+
+        <div>
+
+          <span
+            class="uppercase tracking-[8px] text-yellow-400 font-bold"
+          >
+            Contact Us
+          </span>
+
+          <h1
+            class="text-6xl md:text-8xl font-black text-white mt-4"
+          >
+            Plan Your Rwanda Journey
+          </h1>
+
+          <p
+            class="text-xl text-gray-200 mt-8 max-w-3xl mx-auto"
+          >
+            Get in touch with our travel experts and start
+            creating unforgettable memories.
+          </p>
+
         </div>
-  
-      </section>
-  
-      <!-- CONTACT SECTION -->
-      <section class="pb-24 px-6">
-  
-        <div
-          class="max-w-7xl mx-auto grid lg:grid-cols-5 gap-10"
-        >
-  
-          <!-- LEFT SIDE -->
+
+      </div>
+
+    </section>
+
+    <!-- Contact Cards -->
+
+    <section class="py-24 bg-white">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-3 gap-8">
+
           <div
-            class="lg:col-span-2 bg-white/5 border border-white/10 rounded-[35px] p-10 backdrop-blur-xl"
+            class="bg-green-700 text-white rounded-3xl p-10 shadow-xl"
           >
-  
-            <p
-              class="uppercase tracking-[5px] text-green-400 font-bold mb-4"
-            >
-              Contact Information
+
+            <h3 class="text-3xl font-bold">
+              Address
+            </h3>
+
+            <p class="mt-6 leading-8">
+              Kigali City<br>
+              Rwanda
             </p>
-  
-            <h2
-              class="text-4xl font-black mb-10"
-            >
-              Let’s Connect
-            </h2>
-  
-            <!-- INFO ITEMS -->
-            <div class="space-y-8">
-  
-              <!-- ITEM -->
-              <div class="flex gap-5 items-start">
-  
-                <div
-                  class="w-16 h-16 rounded-2xl bg-green-500/20 border border-green-500/20 flex items-center justify-center text-3xl"
-                >
-                  📍
-                </div>
-  
-                <div>
-                  <h3 class="text-2xl font-bold mb-2">
-                    Visit Our Office
-                  </h3>
-  
-                  <p class="text-gray-300 leading-7">
-                    Kigali Heights <br />
-                    Kigali, Rwanda
-                  </p>
-                </div>
-  
-              </div>
-  
-              <!-- ITEM -->
-              <div class="flex gap-5 items-start">
-  
-                <div
-                  class="w-16 h-16 rounded-2xl bg-cyan-500/20 border border-cyan-500/20 flex items-center justify-center text-3xl"
-                >
-                  ✉️
-                </div>
-  
-                <div>
-                  <h3 class="text-2xl font-bold mb-2">
-                    Email Us
-                  </h3>
-  
-                  <p class="text-gray-300 leading-7">
-                    travel@temberaurwanda.com <br />
-                    booking@temberaurwanda.com
-                  </p>
-                </div>
-  
-              </div>
-  
-              <!-- ITEM -->
-              <div class="flex gap-5 items-start">
-  
-                <div
-                  class="w-16 h-16 rounded-2xl bg-yellow-500/20 border border-yellow-500/20 flex items-center justify-center text-3xl"
-                >
-                  📞
-                </div>
-  
-                <div>
-                  <h3 class="text-2xl font-bold mb-2">
-                    Call Us
-                  </h3>
-  
-                  <p class="text-gray-300 leading-7">
-                    +250 788 123 456 <br />
-                    +250 700 555 222
-                  </p>
-                </div>
-  
-              </div>
-  
-            </div>
-  
-            <!-- SOCIALS -->
-            <div class="mt-14">
-  
-              <h3 class="text-2xl font-bold mb-5">
-                Follow Us
-              </h3>
-  
-              <div class="flex gap-4">
-  
-                <div
-                  class="w-14 h-14 rounded-2xl bg-white/10 hover:bg-green-500 transition flex items-center justify-center text-xl cursor-pointer"
-                >
-                  F
-                </div>
-  
-                <div
-                  class="w-14 h-14 rounded-2xl bg-white/10 hover:bg-cyan-500 transition flex items-center justify-center text-xl cursor-pointer"
-                >
-                  I
-                </div>
-  
-                <div
-                  class="w-14 h-14 rounded-2xl bg-white/10 hover:bg-yellow-500 transition flex items-center justify-center text-xl cursor-pointer"
-                >
-                  X
-                </div>
-  
-              </div>
-  
-            </div>
-  
+
           </div>
-  
-          <!-- FORM -->
+
           <div
-            class="lg:col-span-3 bg-white rounded-[35px] p-10 md:p-14 text-gray-900 shadow-2xl"
+            class="bg-yellow-500 text-black rounded-3xl p-10 shadow-xl"
           >
-  
-            <p
-              class="uppercase tracking-[5px] text-green-700 font-bold mb-4"
-            >
-              Send A Message
+
+            <h3 class="text-3xl font-bold">
+              Phone
+            </h3>
+
+            <p class="mt-6 leading-8">
+              +250 788 123 456
             </p>
-  
+
+          </div>
+
+          <div
+            class="bg-black text-white rounded-3xl p-10 shadow-xl"
+          >
+
+            <h3 class="text-3xl font-bold">
+              Email
+            </h3>
+
+            <p class="mt-6 leading-8">
+              info@temberaurwanda.com
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Form -->
+
+    <section class="bg-gray-100 py-24">
+
+      <div class="max-w-6xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-16">
+
+          <div>
+
             <h2
-              class="text-5xl font-black leading-tight mb-10"
+              class="text-5xl font-black"
             >
-              Plan Your Next Adventure
+              Send Us A Message
             </h2>
-  
-            <form class="space-y-8">
-  
-              <!-- ROW -->
-              <div class="grid md:grid-cols-2 gap-6">
-  
-                <div>
-                  <label class="block font-bold mb-3">
-                    First Name
-                  </label>
-  
-                  <input
-                    type="text"
-                    placeholder="John"
-                    class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                  />
-                </div>
-  
-                <div>
-                  <label class="block font-bold mb-3">
-                    Last Name
-                  </label>
-  
-                  <input
-                    type="text"
-                    placeholder="Doe"
-                    class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                  />
-                </div>
-  
-              </div>
-  
-              <!-- ROW -->
-              <div class="grid md:grid-cols-2 gap-6">
-  
-                <div>
-                  <label class="block font-bold mb-3">
-                    Email Address
-                  </label>
-  
-                  <input
-                    type="email"
-                    placeholder="example@email.com"
-                    class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                  />
-                </div>
-  
-                <div>
-                  <label class="block font-bold mb-3">
-                    Phone Number
-                  </label>
-  
-                  <input
-                    type="text"
-                    placeholder="+250 700 000 000"
-                    class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                  />
-                </div>
-  
-              </div>
-  
-              <!-- SELECT -->
-              <div>
-                <label class="block font-bold mb-3">
-                  Choose Experience
-                </label>
-  
-                <select
-                  class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                >
-                  <option>Gorilla Trekking</option>
-                  <option>Lake Kivu Tour</option>
-                  <option>Kigali City Tour</option>
-                  <option>Cultural Experience</option>
-                </select>
-              </div>
-  
-              <!-- MESSAGE -->
-              <div>
-                <label class="block font-bold mb-3">
-                  Your Message
-                </label>
-  
-                <textarea
-                  rows="6"
-                  placeholder="Tell us about your dream Rwanda trip..."
-                  class="w-full bg-gray-100 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-green-600"
-                ></textarea>
-              </div>
-  
-              <!-- BUTTON -->
+
+            <p
+              class="mt-8 text-lg text-gray-600 leading-9"
+            >
+              Interested in gorilla trekking, safaris,
+              cultural experiences or customized tours?
+              Fill out the form and our team will contact you.
+            </p>
+
+          </div>
+
+          <form
+            class="bg-white p-10 rounded-3xl shadow-xl"
+          >
+
+            <div class="space-y-6">
+
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="w-full border p-4 rounded-xl"
+              />
+
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-full border p-4 rounded-xl"
+              />
+
+              <input
+                type="text"
+                placeholder="Phone Number"
+                class="w-full border p-4 rounded-xl"
+              />
+
+              <select
+                class="w-full border p-4 rounded-xl"
+              >
+                <option>Select Tour Type</option>
+                <option>Gorilla Trekking</option>
+                <option>Safari Tour</option>
+                <option>Lake Kivu Tour</option>
+                <option>Cultural Experience</option>
+              </select>
+
+              <textarea
+                rows="5"
+                placeholder="Your Message"
+                class="w-full border p-4 rounded-xl"
+              ></textarea>
+
               <button
                 type="submit"
-                class="bg-green-700 hover:bg-green-800 text-white font-black px-10 py-5 rounded-2xl transition duration-300"
+                class="w-full bg-green-700 text-white py-4 rounded-xl font-bold hover:bg-green-800 transition"
               >
-                Send Inquiry
+                Send Message
               </button>
-  
-            </form>
-  
-          </div>
-  
-        </div>
-  
-      </section>
-  
 
-  
-    </div>
-  </template>
-  
-  <script setup>
-  // No script needed
-  </script>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Map -->
+
+    <section class="py-24 bg-white">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <h2
+          class="text-5xl font-black text-center mb-12"
+        >
+          Find Us
+        </h2>
+
+        <div
+          class="rounded-3xl overflow-hidden shadow-2xl"
+        >
+
+          <iframe
+            class="w-full h-[500px]"
+            src="https://maps.google.com/maps?q=Kigali&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen
+          ></iframe>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="bg-black py-24">
+
+      <div class="max-w-5xl mx-auto px-6">
+
+        <h2
+          class="text-5xl font-black text-white text-center mb-16"
+        >
+          Frequently Asked Questions
+        </h2>
+
+        <div class="space-y-8">
+
+          <div class="bg-gray-900 p-8 rounded-2xl">
+
+            <h3 class="text-white text-2xl font-bold">
+              When is the best time to visit Rwanda?
+            </h3>
+
+            <p class="text-gray-400 mt-4">
+              Rwanda can be visited year-round, with dry seasons
+              being especially popular for trekking and safaris.
+            </p>
+
+          </div>
+
+          <div class="bg-gray-900 p-8 rounded-2xl">
+
+            <h3 class="text-white text-2xl font-bold">
+              Do I need a guide?
+            </h3>
+
+            <p class="text-gray-400 mt-4">
+              Most national park experiences are guided to ensure
+              safety and provide valuable local knowledge.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section
+      class="bg-gradient-to-r from-green-700 to-green-500 py-24 text-center text-white"
+    >
+
+      <h2
+        class="text-5xl font-black"
+      >
+        Your Adventure Starts Here
+      </h2>
+
+      <p
+        class="mt-6 text-xl"
+      >
+        Contact us today and begin exploring Rwanda.
+      </p>
+
+    </section>
+
+  </div>
+</template>
+
+<script setup>
+</script>

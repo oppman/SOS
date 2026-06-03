@@ -12,21 +12,19 @@
         class="flex items-center gap-3 "
       >
         <img
-          src="/src/assets/images/logo.jpg"
+          src="/src/assets/images/western.jpg"
           alt="Logo"
-          class="w-12 h-12 rounded-full border-2 border-black"
+          class="w-12 h-12 rounded-full border-2 border-white"
         />
 
         <div>
           <h1
-            class="text-black text-2xl md:text-3xl font-black tracking-wide"
+            class="text-white text-2xl md:text-3xl font-black tracking-wide"
           >
             TEMBERA U RWANDA
           </h1>
 
-          <p class="text-xs text-gray-800">
-            Land of a Thousand Hills
-          </p>
+          
         </div>
       </router-link>
 

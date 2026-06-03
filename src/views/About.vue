@@ -7,7 +7,7 @@
       class="relative h-screen"
     >
       <img
-        src="/src/assets/images/about3.jpg"
+        src="/src/assets/images/about1.jpg"
         class="w-full h-full object-cover"
       />
 
@@ -219,7 +219,7 @@
 
           <div>
             <img
-              src="/src/assets/images/about2.jpg"
+              src="/src/assets/images/about3.jpg"
               class="rounded-3xl shadow-2xl"
             />
           </div>
