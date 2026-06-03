@@ -38,7 +38,7 @@
             💬 Support
           </router-link>
           <router-link to="/photos" :class="['block px-4 py-2.5 rounded-lg font-medium text-gray-300 hover:bg-gray-800 transition']">
-            🖼️ Gallery
+             Gallery
           </router-link>
         </nav>
 
