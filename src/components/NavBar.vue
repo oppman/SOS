@@ -145,10 +145,19 @@
 
         <li>
           <router-link
-            to="/contact"
+            to="/login"
             class="hover:text-yellow-400 transition"
           >
-            Contact
+            Login
+          </router-link>
+        </li>
+
+        <li>
+          <router-link
+            to="/register"
+            class="hover:text-yellow-400 transition"
+          >
+            Register
           </router-link>
         </li>
       </ul>
@@ -241,9 +250,23 @@
 
       <router-link
         to="/contact"
-        class="block px-6 py-4"
+        class="block px-6 py-4 border-b border-gray-800"
       >
         Contact
+      </router-link>
+
+      <router-link
+        to="/login"
+        class="block px-6 py-4 border-b border-gray-800"
+      >
+        Login
+      </router-link>
+
+      <router-link
+        to="/register"
+        class="block px-6 py-4"
+      >
+        Register
       </router-link>
     </div>
   </nav>
